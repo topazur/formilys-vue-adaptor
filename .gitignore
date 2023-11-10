@@ -1,0 +1,13 @@
+# deps
+.DS_Store
+node_modules
+pnpm-lock.yaml
+
+# dev assets
+docs/.vitepress/*
+!docs/.vitepress/config.mts
+
+# build assets
+dist
+esm
+lib

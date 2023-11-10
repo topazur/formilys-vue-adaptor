@@ -1,0 +1,21 @@
+{
+  // [Why I don't use Prettier](https://antfu.me/posts/why-not-prettier-zh)
+  "prettier.enable": false,
+  "eslint.experimental.useFlatConfig": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // 控制资源管理器中的文件嵌套
+  "explorer.fileNesting.patterns": {
+    "package.json": ".npmrc, .pnpm*, pnpm*",
+    "tsconfig.json": "tsconfig.*.json"
+  },
+  "cSpell.words": [
+    "ahooks",
+    "antd",
+    "antdv",
+    "formily",
+    "vitepress",
+    "vueuse"
+  ]
+}
