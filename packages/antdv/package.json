@@ -1,0 +1,48 @@
+{
+  "name": "@odinlin/formily-antdv",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib",
+  "types": "lib/index.d.ts",
+  "module": "esm",
+  "umd:main": "dist/odinlin.formily-antdv.umd.production.js",
+  "unpkg": "dist/odinlin.formily-antdv.umd.production.js",
+  "jsdelivr": "dist/odinlin.formily-antdv.umd.production.js",
+  "jsnext:main": "esm",
+  "sideEffects": [
+    "dist/*",
+    "esm/*.js",
+    "lib/*.js",
+    "src/*.ts",
+    "*.less",
+    "*.scss",
+    "**/*/style.js"
+  ],
+  "scripts": {
+    "build": "formily-tpl build"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "^4.0.6 ",
+    "vue": "^3.3.0"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@formily/antdv": "^2.0.1-beta.3",
+    "@formily/core": "^2.2.0",
+    "@formily/grid": "^2.2.0",
+    "@formily/json-schema": "^2.2.0",
+    "@formily/reactive": "^2.2.0",
+    "@formily/reactive-vue": "^2.2.0",
+    "@formily/shared": "^2.2.0",
+    "@formily/vue": "^2.2.0",
+    "@vueuse/core": "^10.6.0",
+    "throttle-debounce": "^5.0.0",
+    "vue-slicksort": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/throttle-debounce": "^5.0.1"
+  }
+}
