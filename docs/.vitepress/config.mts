@@ -37,6 +37,7 @@ export default defineConfig({
         items: [
           { text: 'Components导览页', link: '/components/' },
           { text: 'Select2', link: '/components/select2' },
+          { text: 'QueryFoldFilter', link: '/components/fold' },
         ],
       },
     ],
