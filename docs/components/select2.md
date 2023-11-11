@@ -1,5 +1,4 @@
 <script setup>
-// import QueryFoldDemo from '../demos/fold/Schema.vue'
 import SelectLoadDemo from '../demos/select2/Load.vue'
 import SelectSlotDemo from '../demos/select2/Slot.vue'
 </script>

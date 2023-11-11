@@ -14,9 +14,8 @@ import {
 import { useControllableValue, useLockFn } from '../composables'
 import { useAbortController, useMergeOptions } from './hooks'
 
-import type { DefineComponent } from 'vue'
+import type { DefineComponent, SlotsType } from 'vue'
 import type { SelectProps } from 'ant-design-vue/lib/select'
-import type { CustomSlotsType } from 'ant-design-vue/lib/_util/type'
 
 export { SELECT2_ABORT_REASON, SELECT2_IDENTIFIER_NOMORE, SELECT2_IDENTIFIER_PROGRESS } from './option-definition'
 
@@ -68,7 +67,7 @@ const InternalSelect2: DefineComponent = defineComponent({
       loadData: undefined,
     },
   ),
-  slots: Object as CustomSlotsType<{
+  slots: Object as SlotsType<{
     notFoundContent: any
     suffixIcon: any
     itemIcon: any
