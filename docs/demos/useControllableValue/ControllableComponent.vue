@@ -1,5 +1,4 @@
 <script lang="ts">
-// @ts-expect-error 类型声明
 import { useControllableValue } from '@odinlin/formily-antdv'
 
 export default {
